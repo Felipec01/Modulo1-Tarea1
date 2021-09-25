@@ -1,0 +1,135 @@
+body{
+    font-family: 'Sen', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(161, 41, 41);
+    color: #fff;
+    text-align: center;
+}
+
+.titulo p{
+    padding-bottom: 5px;
+}
+
+.menu h1{
+    background-color: rgb(189, 78, 78);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.menu {
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    background-color: rgb(251, 237, 237);
+    width: 100%;
+}
+
+table thead{
+    background-color: rgb(104, 104, 104);
+    border: 1px solid rgb(104, 104, 104);
+    color:white;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+table thead tr th img{
+    background-color: rgb(255, 192, 192);
+}
+
+table tbody {
+    border-right: 10px solid rgb(255, 192, 192) !important; 
+    font-size: 16px;
+}
+
+table tbody tr th{
+    text-align: left;
+}
+
+table tbody tr th p{
+    text-align: left;
+    font-size: 20px;
+}
+
+table .col1{
+    width: 20%;
+}
+
+table .col2{
+    width: 60%;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+table .col2ult{
+    width: 60%;
+    padding: 20px;
+}
+
+table .col3{
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    width: 300px;
+}
+
+.anuncio{
+    color:crimson;
+    font-size: 20px;
+}
+
+.link{
+    text-align: center;
+}
+
+.link h3{
+    padding: 10px;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+.link li{
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.link a{
+    font-weight: bold;
+    text-decoration: none;
+    color: darkred;
+}
+
+.link a:visited{
+    color: darkred;
+    font-weight: bold;
+}
+
+.link a:hover{
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+
+.promo li{
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+.copy {
+    padding-top: 20px;
+    border-top: 3px solid rgb(189, 78, 78);
+}
